@@ -1,15 +1,14 @@
 {
-    "name": "blackboard-part1",
-    "version": "1.0.0",
-    "private": true,
-    "scripts": {
-      "start": "node app.js"
-    },
-    "devDependencies": {
-      "jest": "^27.5.1"
-    },
-    "dependencies": {
-      "mongoose": "^7.6.3"
-    }
+  "name": "blackboard-part1",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  },
+  "dependencies": {
+    "mongoose": "^8.9.3"
   }
-  
+}
