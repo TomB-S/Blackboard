@@ -17,7 +17,7 @@ displayAllArticles();
 const displayArticleByName = (articleName) => {
 	db.find({name: articleName})
 	.then(data => {
-		console.log('articles are charged', data);
+		console.log('articles are charged', data)
 		return data;
 	})
 	.catch(err => {
